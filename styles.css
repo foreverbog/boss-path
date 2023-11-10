@@ -600,6 +600,7 @@ hr{
     .wrapper .sidebar ul li:hover{
         transform: scale(1);
         background-color: inherit;
+        border-radius: 10px;
     }
 
     .wrapper .sidebar ul li i{
