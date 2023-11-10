@@ -647,8 +647,7 @@ hr{
     .wrapper .sidebar ul{
         
         width: 100%;
-        
-        background-color:  rgba(34, 40, 49, 0.8);
+        background-color: #222831;
         position: fixed;
         display: flex;
         justify-content: space-evenly;
@@ -665,6 +664,7 @@ hr{
     .wrapper .sidebar ul li:hover{
         transform: scale(1);
         background-color: inherit;
+        border-radius: 10px;
     }
 
     .wrapper .sidebar ul li i{
