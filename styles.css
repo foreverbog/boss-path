@@ -16,6 +16,10 @@ body{
     
 }
 
+
+/* SIDEBAR */
+
+
 .wrapper .sidebar{
     width: 200px;
     height: 100%;
@@ -65,6 +69,8 @@ i{
     transition:all .5s ease-out;
     transform: scale(1.1);
 }
+
+/* END SIDEBAR */
     
 
 .wrapper{
@@ -76,6 +82,16 @@ i{
     
               
     
+}
+
+.wrapper .sidebar iconify-icon {
+    font-size: 20px;
+    
+}
+
+.wrapper .main-content iconify-icon{
+    
+    font-size: 25px;
 }
 
 .wrapper h1{
@@ -353,7 +369,7 @@ hr{
   
 }
 
-.main-content .boss .classic-team{
+.main-content .boss .classic-team, .classic-team{
     border: 1px solid #4b4469;
     border-radius: 5px;
     background-color: #4b4469;
@@ -368,7 +384,7 @@ hr{
 
  
 
-.main-content .boss .top3{
+.main-content .boss .top3, .top3{
     border: 1px solid rgb(112, 1, 7);
     border-radius: 5px;
     background-color: rgb(112, 1, 7);
@@ -382,7 +398,7 @@ hr{
 }
 
 
-.main-content .boss .rocks{
+.main-content .boss .rocks, .rocks{
     border: 1px solid #ba6;
     border-radius: 5px;
     background-color: #ba6;
@@ -395,7 +411,7 @@ hr{
     
 }
 
-.main-content .boss .mold-breaker{
+.main-content .boss .mold-breaker, .mold-breaker{
     border: 1px solid #AE6565;
     border-radius: 5px;
     background-color: #AE6565;
@@ -408,7 +424,7 @@ hr{
     text-shadow: 1px 1px black;
     
 }
-.main-content .boss .special-team{
+.main-content .boss .special-team, .special-team{
     border: 1px solid #FF0202 ;
     border-radius: 5px;
     background-color: #FF0202 ;
@@ -423,7 +439,7 @@ hr{
     
 }
 
-.main-content .boss .lead{
+.main-content .boss .lead, .lead{
     border: 1px solid #45869E  ;
     border-radius: 5px;
     background-color: #45869E  ;
@@ -499,6 +515,8 @@ hr{
 .main-content .steven-team .steven-poke p{
     font-family: 'Fira Sans', sans-serif;
     margin: 5px;
+    line-height: 1.2;
+    
 }
 
 
@@ -573,8 +591,8 @@ hr{
         align-items: center;
         display: flex;
         position: fixed;
-        
         flex-wrap: wrap;
+        
        
         
         
@@ -588,7 +606,7 @@ hr{
         display: flex;
         justify-content: space-evenly;
         gap:  10px;
-        flex-wrap: wrap;
+        
        
         
         
@@ -639,8 +657,9 @@ hr{
         align-items: center;
         display: flex;
         position: fixed;
-        
         flex-wrap: wrap;
+        
+       
        
         
         
@@ -653,7 +672,7 @@ hr{
         display: flex;
         justify-content: space-evenly;
         gap:  10px;
-        flex-wrap: wrap;
+       
        
         
         
@@ -690,3 +709,152 @@ hr{
 }
 
 /* END OF RESPONSIVE CSS */
+
+/* INFOTAB */
+
+.main-content .infos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 20px;
+    width: fit-content;
+}
+.main-content .infos .detailsheader{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+.main-content .infos .recommend{
+    border: 1px solid #393E46;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 30px; ;
+
+    
+}
+.main-content .infos .recommend h3{
+    color:red;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    
+   
+}
+.main-content .infos .recommend li{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+    
+
+}
+
+.main-content .infos .otherinfo{
+    border: 1px solid #393E46;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.main-content .infos .otherinfo li{
+    font-family: 'Fira Sans', sans-serif;   
+    padding-top: 10px;
+
+}
+
+.main-content .infos .howto{
+    margin: 20px;
+    
+}
+.main-content .infos .howto iconify-icon{
+   font-size: 15px;;
+    
+}
+
+.howtoflex{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid #393E46;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    line-height: 30px;
+    
+
+}
+
+
+ .main-content .infos .howtoflex p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+
+ 
+
+.main-content .infos details{
+    font-family: 'Fira Sans', sans-serif; 
+    margin-top: 10px;;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+
+.main-content .infos .howtodetails li{
+    list-style-type: decimal;
+    font-family: 'Fira Sans', sans-serif;  
+    margin-top: 10px;
+    
+}
+
+.main-content .infos .legend{
+    margin: 20px;
+}
+.main-content .infos .legend iconify-icon{
+    font-size: 15px;;
+     
+ }
+ 
+ .main-content .infos  details .flexlegend ol li{
+    margin-left: 20px;
+
+ }
+ .main-content .infos  details .flexlegend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #393E46;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 30px; ;
+ }
+
+
+
+ .infos details p{
+    font-weight: bold;
+    margin: 10px;
+    
+ }
+
+  
+
+.infos .infolegend{
+    
+    font-weight: 100;
+    font-family: 'Fira Sans', sans-serif;  
+}
+
+
+
+
+/* INFOTAB END */
